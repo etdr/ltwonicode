@@ -38,8 +38,8 @@ module.exports = class Creep {
         this.bottoms = bottoms;
         this.middles = middles;
     }
-    encode(text) {
-        const encodeSingle = (c, level = 15) => {
+    encode(text, level = 15) {
+        const encodeSingle = (c) => {
             let newC = c;
             newC += this.middles[Math.floor(Math.random() * this.middles.length)];
             for (let i = 0; i <= level * (1 - Math.random()); i++) {

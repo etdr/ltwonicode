@@ -46,9 +46,9 @@ module.exports = class Creep {
 
 
 
-  encode (text: string): string {
+  encode (text: string, level: number = 15): string {
 
-    const encodeSingle = (c: string, level: number = 15) => {
+    const encodeSingle = (c: string) => {
       let newC = c
   
       newC += this.middles[Math.floor(Math.random() * this.middles.length)]
