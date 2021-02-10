@@ -1,6 +1,6 @@
 {
   "name": "ltwonicode",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "ESwhatever update of Lunicode.js",
   "main": "dist/ltwonicode.js",
   "scripts": {
