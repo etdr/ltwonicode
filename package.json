@@ -1,0 +1,25 @@
+{
+  "name": "ltwonicode",
+  "version": "0.1.0",
+  "description": "ESwhatever update of Lunicode.js",
+  "main": "dist/ltwonicode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://combatwombat@github.com/combatwombat/Lunicode.js.git"
+  },
+  "keywords": [
+    "unicode"
+  ],
+  "author": "Eli T. Drumm",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/combatwombat/Lunicode.js/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "typescript": "^4.1.4"
+  }
+}
