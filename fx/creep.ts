@@ -48,14 +48,14 @@ module.exports = class Creep {
 
   encode (text: string): string {
 
-    const encodeSingle = (c: string) => {
+    const encodeSingle = (c: string, level: number = 15) => {
       let newC = c
   
       newC += this.middles[Math.floor(Math.random() * this.middles.length)]
-      for (let i = 0; i <= 15 * (1 - Math.random()); i++) {
+      for (let i = 0; i <= level * (1 - Math.random()); i++) {
         newC += this.tops[Math.floor(Math.random() * this.tops.length)]
       }
-      for (let i = 0; i <= 15 * (1 - Math.random()); i++) {
+      for (let i = 0; i <= level * (1 - Math.random()); i++) {
         newC += this.bottoms[Math.floor(Math.random() * this.bottoms.length)]
       }
   
